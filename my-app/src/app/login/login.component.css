@@ -4,3 +4,11 @@
   font-family: Verdana;
   font-size: 20px;
 }
+.form-principal{
+  margin-top: 100px;
+  background: gray;
+  border-style: solid;
+  border-color: darkslategray;
+  border-width: 1px;
+  border: 1px solid;
+}

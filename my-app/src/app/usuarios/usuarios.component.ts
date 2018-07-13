@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {createViewChild} from '@angular/compiler/src/core';
 
 @Component({
   selector: 'app-usuarios',
@@ -12,4 +13,6 @@ export class UsuariosComponent implements OnInit {
   ngOnInit() {
   }
 
+
 }
+

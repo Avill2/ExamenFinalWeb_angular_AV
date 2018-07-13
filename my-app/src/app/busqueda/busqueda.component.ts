@@ -12,7 +12,10 @@ export class BusquedaComponent implements OnInit {
 
   ngOnInit() {
   }
-  UsuarioHacerClick:UsuariosComponent;
-  mostrarBusqueda=false;
+ // UsuarioHacerClick:UsuariosComponent;
+ // mostrarBusqueda=false;
 
+  BusquedaUsuario(){
+    this
+}
 }
