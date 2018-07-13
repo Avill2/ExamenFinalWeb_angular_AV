@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import {RouterLink, RouterModule} from '@angular/router';
+import {RUTAS_APP} from './app.routes';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,12 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule, RouterModule.forRoot(
+      RUTAS_APP,
+      {
+        useHash: true
+      }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
