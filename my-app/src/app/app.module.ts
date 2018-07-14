@@ -7,13 +7,15 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import {RouterLink, RouterModule} from '@angular/router';
 import {RUTAS_APP} from './app.routes';
+import { SistemaOperativoComponent } from './sistema-operativo/sistema-operativo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     BusquedaComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    SistemaOperativoComponent
   ],
   imports: [
     BrowserModule,
