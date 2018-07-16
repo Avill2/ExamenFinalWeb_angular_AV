@@ -8,6 +8,9 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 import {RouterLink, RouterModule} from '@angular/router';
 import {RUTAS_APP} from './app.routes';
 import { SistemaOperativoComponent } from './sistema-operativo/sistema-operativo.component';
+import { PeticionTransferenciaComponent } from './peticion-transferencia/peticion-transferencia.component';
+import { SeleccionTransferenciaComponent } from './seleccion-transferencia/seleccion-transferencia.component';
+import { AplicacionComponent } from './aplicacion/aplicacion.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { SistemaOperativoComponent } from './sistema-operativo/sistema-operativo
     LoginComponent,
     BusquedaComponent,
     UsuariosComponent,
-    SistemaOperativoComponent
+    SistemaOperativoComponent,
+    PeticionTransferenciaComponent,
+    SeleccionTransferenciaComponent,
+    AplicacionComponent
   ],
   imports: [
     BrowserModule,
