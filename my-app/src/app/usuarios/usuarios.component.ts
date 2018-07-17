@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Output,EventEmitter} from '@angular/core';
 import {createViewChild} from '@angular/compiler/src/core';
 
 @Component({
@@ -9,10 +9,13 @@ import {createViewChild} from '@angular/compiler/src/core';
 export class UsuariosComponent implements OnInit {
 
   constructor() { }
-
+  @Output() dioClick = new EventEmitter();
   ngOnInit() {
   }
 
+  clickVisitar() {
+    this.dioClick.emit(1);
+  }
 
 }
 

@@ -12,10 +12,23 @@ export class BusquedaComponent implements OnInit {
 
   ngOnInit() {
   }
- // UsuarioHacerClick:UsuariosComponent;
- // mostrarBusqueda=false;
+  clickUsuario: UsuariosComponent;
+  mostrarComponente = false;
 
-  BusquedaUsuario(){
-    this
+  cargarsistemaoperativo(evento) {
+    console.log('evento', evento);
+    this.mostrarComponente = true;
+    if (this.clickUsuario.dioClick.emit(1)) {
+      this.mostrarComponente = true;
+      console.log(this.clickUsuario);
+      return 1;
+
+    } else {
+      this.mostrarComponente = false;
+      console.log(this.clickUsuario);
+      return 0;
+    }
+  }
+
 }
-}
+

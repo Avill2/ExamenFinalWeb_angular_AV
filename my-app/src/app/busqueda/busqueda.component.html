@@ -1,51 +1,50 @@
 <div class="row">
-<div class="col-md-12"></div>
-<div class="col-md-12"></div>
-  <br>
-  <br>
-  <br>
-  <div class="col-sm-1">
-    <img src="https://www.shareicon.net/download/2015/10/03/110917_search.ico" alt="" width="40" height="40">
+  <div class="col-sm-12">
+    <br>
   </div>
-  <div class="col-sm-6">
-    <input type="text" class="form-control" aria-label="Buscar" name="busqueda" autocomplete="off" placeholder="Busca" role="combobox">
-  </div>
+
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
   <div class="col-sm-3">
-    <button class="btn btn-submit">Buscar</button>
+    <img
+      src="https://scontent.fgye1-1.fna.fbcdn.net/v/t1.0-9/31563996_1920093914699021_7070590439320977408_n.jpg?_nc_cat=0&oh=956b360b029daf838d4b8ceb56c6dd61&oe=5BD3379F"
+      alt="fotoperfil"
+      class="imagen-perfil" width="50" height="50"> Andrea Villacis
   </div>
-  <div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-6">
+    <br>
+    <br>
+    <div class="input-group input-group-sm mb-5">
+      <input type="buscar" class="form-control" placeholder="Buscar Usuario, Modelo papá ó Modelo hijo"
+             aria-label="Buscar">
+    </div>
+  </div>
+  <div class="col-sm-2">
+    <br>
+    <br>
+    <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+  </div>
+  <div class="col-sm-2"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10">
     <app-usuarios></app-usuarios>
   </div>
-  <div>
-    <app-aplicacion></app-aplicacion>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div *ngIf="mostrarComponente===true" class="col-sm-10">
+    <app-sistema-operativo></app-sistema-operativo>
   </div>
-
+  <div class="col-sm-1"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-10" *ngIf="cargarsistemaoperativo">
+  </div>
+  <div class="col-sm-1"></div>
 </div>
-
-
-
-
-
-<!--
-<div class="col-sm-1">
-  <div class="input-group input-group-sm mb-5">
-    <div class="input-group-prepend">
-      <span class="input-group-text" id="inputGroup-sizing-sm">
-    <img src="https://media.istockphoto.com/vectors/search-magnifying-glass-icon-illustration-vector-id917849744" alt="" height="50" width="50">
-        </span>
-  </div>
-    <div class="col-md-6">
-    <input type="text" class="form-control" aria-label="Buscar" name="busqueda" autocomplete="off" placeholder="Busca" role="combobox" ngModel="buscador">
-  </div>
-  </div>
-</div>
-  <div class="col-sm-2">
-    <button class="btn btn-submit">Buscar</button>
-  </div>
-
-<div>
-  <app-usuarios></app-usuarios>
-</div>
-
-
--->

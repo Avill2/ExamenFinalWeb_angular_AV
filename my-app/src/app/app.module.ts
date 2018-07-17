@@ -11,6 +11,7 @@ import { SistemaOperativoComponent } from './sistema-operativo/sistema-operativo
 import { PeticionTransferenciaComponent } from './peticion-transferencia/peticion-transferencia.component';
 import { SeleccionTransferenciaComponent } from './seleccion-transferencia/seleccion-transferencia.component';
 import { AplicacionComponent } from './aplicacion/aplicacion.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AplicacionComponent } from './aplicacion/aplicacion.component';
     SistemaOperativoComponent,
     PeticionTransferenciaComponent,
     SeleccionTransferenciaComponent,
-    AplicacionComponent
+    AplicacionComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
