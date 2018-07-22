@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1abaec6-7824-4302-b361-10c32c1541c0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/backend" afterPath="$PROJECT_DIR$/backend" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/app/login/login.component.html" afterPath="$PROJECT_DIR$/my-app/src/app/login/login.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SO.controller.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/SistemaOperativo/SO.controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SO.pipe.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/Pipes/SO.pipe.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario.service.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="usuario.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/Usuarios/usuario.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="1521">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -104,14 +93,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usuario.pipe.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/Pipes/usuario.pipe.ts">
+      <file leaf-file-name="usuario.data.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/Usuarios/usuario.data.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="397">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,6 +175,8 @@
         <option value="$PROJECT_DIR$/backend/src/Usuarios/usuario.schema.ts" />
         <option value="$PROJECT_DIR$/backend/src/Usuarios/usuario.entity.ts" />
         <option value="$PROJECT_DIR$/backend/src/Usuarios/usuario.service.ts" />
+        <option value="$PROJECT_DIR$/backend/src/Usuarios/usuario.data.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -191,7 +190,7 @@
     <handled-path value="$PROJECT_DIR$/backend/node_modules" />
     <handled-path value="$PROJECT_DIR$/my-app/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -317,19 +316,19 @@
       <workItem from="1531770198027" duration="14513000" />
       <workItem from="1531834929484" duration="664000" />
       <workItem from="1532189873002" duration="1629000" />
-      <workItem from="1532219150775" duration="3437000" />
+      <workItem from="1532219150775" duration="5386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56877000" />
+    <option name="totallyTimeSpent" value="58826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40088105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2306003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -384,20 +383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/src/SistemaOperativo/SO.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3090">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/SistemaOperativo/SO.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/SistemaOperativo/SO.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -766,11 +751,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/Usuarios/usuario.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="1521">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/Usuarios/usuario.data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
