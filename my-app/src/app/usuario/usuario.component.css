@@ -1,0 +1,12 @@
+.titulo {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 3rem;
+  border-color: darkolivegreen;
+  background-color: sandybrown;
+}
+.perfiles:hover {
+  color:  navy;
+  border-color:  bisque;
+  cursor: pointer;
+}
